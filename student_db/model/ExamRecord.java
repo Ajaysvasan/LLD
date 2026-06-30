@@ -7,10 +7,10 @@ class ExamRecord {
     float totalMarksObtained;
     float totalMarks;
     // for the some exams there won't be any grade calculations like the daily
-    // revision/ assessment test
+    // revision/ assessment test , so they can also be null
     Float grade;
 
-    public ExamRecord(int studentClass, String testname, TestType testType,
+    public ExamRecord(int studentClass, String testName, TestType testType,
             float totalMarksObtained, Float grade, float totalMarks) {
         this.studentClass = studentClass;
         this.testName = testName;

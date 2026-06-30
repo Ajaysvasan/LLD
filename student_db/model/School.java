@@ -11,7 +11,7 @@ class School {
     }
 
     public void initClass(int currentClass) throws ArrayIndexOutOfBoundsException {
-        if (currentClass < 1 || currentClass >= 12)
+        if (currentClass < 1 || currentClass > 12)
             throw new ArrayIndexOutOfBoundsException("The value should be in the range 1 <= x <= 12");
         SchoolClass c = new SchoolClass(currentClass);
         classes[currentClass - 1] = c;
@@ -19,7 +19,7 @@ class School {
 
     // Idk what variable to use ,
     public SchoolClass getSchoolClass(int currentClass) {
-        if (currentClass < 1 || currentClass >= 12)
+        if (currentClass < 1 || currentClass > 12)
             throw new ArrayIndexOutOfBoundsException("The value should be in the range 1 <= x <= 12");
         return classes[currentClass - 1];
     }
