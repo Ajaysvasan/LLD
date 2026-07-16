@@ -1,6 +1,6 @@
 package student_db.model;
 
-class ExamRecord {
+public class ExamRecord {
     String testName;
     int studentClass;
     TestType testType;

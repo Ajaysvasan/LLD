@@ -2,7 +2,7 @@ package student_db.model;
 
 import java.util.ArrayList;
 
-class School {
+public class School {
     private String schoolName;
     private SchoolClass classes[] = new SchoolClass[12];
 

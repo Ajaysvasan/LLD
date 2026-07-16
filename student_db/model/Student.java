@@ -2,7 +2,7 @@ package student_db.model;
 
 import java.util.ArrayList;
 
-class Student {
+public class Student {
     public String name;
     public char gender;
     public int rollNo;

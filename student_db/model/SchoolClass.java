@@ -25,7 +25,7 @@ class ValueNotExistsException extends Exception {
     }
 }
 
-class SchoolClass {
+public class SchoolClass {
     int currentClass;
     private HashMap<Character, ArrayList<Student>> studentsRecord;
 
